@@ -1,0 +1,18 @@
+CREATE TABLE PRODUCTOS(
+   PROD_ID INT PRIMARY KEY   NOT NULL,
+   PROD_NOMBRE      TEXT     NOT NULL,
+   PROD_PRECIO_VTA     TEXT     NOT NULL,
+   PROD_PRECIO_COMPRA     TEXT     NOT NULL,
+   PROD_TIPO	   TEXT     NOT NULL,
+   PROD_CODIGO	   TEXT     NOT NULL
+  
+);
+
+insert into productos
+values('1','Rellenitas','2.50','1.50','Galleta','1244532823');
+
+select * from productos;
+
+
+
+        
